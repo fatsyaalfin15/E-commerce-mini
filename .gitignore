@@ -1,0 +1,56 @@
+# Dependensi (jangan pernah di-commit)
+node_modules/
+jspm_packages/
+bower_components/
+
+# File log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# File variabel lingkungan (berisi informasi sensitif seperti kata sandi, kunci)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Output build
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Direktori alat pengujian dan cakupan
+coverage/
+.nyc_output/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# File sementara atau cadangan
+*.tmp
+*.bak
+*.tgz
